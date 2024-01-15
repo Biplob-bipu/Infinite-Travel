@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinie Travel</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header_area">
+            <div class="travel_logo">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h1>Infinite <span>Travels</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner_area">
+            <div class="explore_travel">
+                <h1>Explore Your Travel</h1>
+                <p>Explore your travel with us. make your travel enjoyable and safely. Make your travel fill like your home. we provide you our best hospitality.</p>
+            </div>
+            <div class="travel_time">
+                <div class="want_to_go">
+                   <input type="text" placeholder="where go">
+                </div>
+                <div class="when">
+                    <label for="">When</label>
+                    <input type="date" id="selectedDate" name="selectedDate">
+
+                </div>
+                <div class="package">
+                    <select name="packages" id="packages">
+                        <option value="select">Select type</option>
+                        <option value="Package 1">Package 1</option>
+                        <option value="Package 2">Package 2</option>
+                        <option value="Package 3">Package 3</option>
+                        <option value="Package 4">Package 4</option>
+                        <option value="Package 5">Package 5</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <button class="btn_primary"><img src="./Images/search (1).png" alt="">Find Now</button>
+                </div>
+            </div>
+        </div>
+        <main>
+            <section>
+                <div class="popular_tours_area">
+                    <div class="popular_tours_content">
+                        <h1>Our Popular Tours</h1>
+                        <p>Experiences and tours are among the best ways to fully experience what your target destination has to offer.</p>
+                        <li>Knowledgeable tour guides can often tell you much more about an area’s history and hidden secrets than a printed-out map.</li><br>
+                        <li>Planning is also a crucial step in creating the perfect vacation.</li><br>
+                        <li>Infinite Travel is a prominent player in the touring industry.</li><br>
+                        <p>Using these, you will end up with a good travel hack of seeing more, seeing the better, and leaving worry at home without crushing your wallet.</p>
+                        <div class="button">
+                            <button class="btn_primary" style="margin-top:25px;">Read More</button>
+                        </div>
+                    </div>
+                    <div class="popular_tours_img">
+                        <img src="./Images/Rectangle 4.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>   
 </body>
 </html>

@@ -160,6 +160,132 @@ border:none;
     border: none;
 }
 
+/* Destination place style */
+.choose_destination_area{
+    margin-top:20%;
+}
+.destination_place span{
+    color: red;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-top:6%;
+}
+.destination_txt{
+    text-align: center;
+    margin-bottom:8%;
+}
+.destination_txt h1{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.destination_txt p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+.upper_row{
+    display:flex;
+    gap:20px;
+}
+.upper_row span{
+    color: #fff;
+    /* text-align: center; */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+}
+.upper_row img {
+    width: 650px;
+    height: auto;
+    object-fit: cover;
+    flex:1;
+}
+
+.middle_row{
+    display:flex;
+    gap:20px;
+    margin-top:24px;
+}
+
+.middle_row span{
+        color: #fff;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-top: 8%;
+margin-left: 8%;
+}
+
+.last_row{
+    display: flex;
+    gap:20px;
+    margin-top:24px;
+}
+
+
+
+.lanka img{
+    width: 430px;
+height: auto;}
+
+.america{
+    width: 537px;
+/* height: auto; */
+object-fit: cover;
+}
+.Kashmir img{
+    width: 313px
+}
+.Kashmir span{
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 105px;
+}
+.bd span{
+    margin-top: 7%;
+    margin-left: 10%;
+    color: #ffff;
+}
+
+.bandar span{
+    margin-top: 7%;
+    margin-left: 15%;
+    color: #ffff;
+    
+}
+.bd img{
+    width:536px ;  
+}
+.bandar img{
+    width:764px;
+}
 /* Popular tour area */
 .popular_tours_area{
     display:flex;
@@ -433,3 +559,52 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.footer_area{
+    text-align: center;
+    margin-top:100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer{
+margin-top:15%;
+}
+.footer p{
+    width:50%;
+    margin:0 auto;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.footer h1{
+    margin-left:5px;
+}
+.footer h1 span{
+    color:#FF5400;
+}
+.footer_txt{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+    padding-top:8%;
+}
+
+.social_icon{
+    margin-top:3%;
+    margin-bottom: 3%;
+
+}
+.social_icon img{
+    margin-right:2%
+}
+.copyright{
+    margin-top:3%;
+    padding-bottom: 5%;
+}
+
+
+
+

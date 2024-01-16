@@ -608,3 +608,200 @@ margin-top:15%;
 
 
 
+
+
+
+
+.nav{
+    display: flex;
+}
+
+
+/* Responsive style */
+@media screen and (max-width:576px){
+
+    .container{
+        width:75%;
+    }
+  
+    .nav{
+        flex-direction: column;
+    }
+    .banner_area{
+        height:527px;
+
+    }
+    .travel_time{
+        flex-direction: column;
+    }
+    .explore_travel h1{
+        font-size: 12px;
+    }
+    .explore_travel p{
+        font-size:10px;
+        line-height: normal;
+    }
+    .travel_time input, label{
+        font-size:12px;
+    }
+    .packages{
+        font-size: 12px;
+    }
+
+    .btn_primary{
+        font-size:12px;
+    }
+
+    .popular_tours_area{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .popular_tours_content{
+        width:100%;
+    }
+
+    .popular_tours_content h1{
+        font-size:15px;
+    }
+
+    .popular_tours_content p{
+        font-size:12px
+    }
+
+    .popular_tours_img img{ 
+        width:100%
+    }
+
+    .destination_txt{
+        margin-top: 10px;
+    }
+    .destination_txt h1{
+        font-size:15px;
+    }
+    .destination_txt p{
+        font-size:12px;
+    }
+    .upper_row{
+        flex-direction: column;
+    }
+    .middle_row{
+        flex-direction: column;
+    }
+    .last_row{
+        flex-direction: column;
+    }
+    .upper_row img{
+        width:100%;
+    }
+
+    .destination_place img{
+        width:100%;
+    }
+    .america{
+        width:100%;
+    }
+    .choosing_reason_area{
+        margin-top:20px;
+    }
+   
+    
+    .choosing_reason_area h1{
+        font-size: 17px;
+    }
+    .choosing_reason_area p{
+        font-size: 15px;
+    }
+
+    .reason_part_one {
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .reason1{
+
+        width:auto;
+    }
+
+    .reason2{
+        width:auto;
+    }
+    .reason_part_two{
+        margin:0 auto;
+        padding:0 auto;
+        margin-top:10px;
+    }
+    .reason3{
+        width:auto;
+    }
+
+    .newsletter_area{
+        margin-top:10px;
+        flex-direction: column;
+    }
+    .newsletter_content {
+        width:auto;
+    }
+    .newsletter_img img{
+        width:100%;
+        margin-top: 10px;
+    }
+    .degree{
+        margin-top:-86px;
+    }
+    .degree h6{
+        font-size:15px;
+    }
+    .degree h3{
+        font-size:12px;
+    }
+    .footer{
+        margin-top: 5%;
+    }
+    .footer_txt{
+        display:flex;
+        margin-bottom: 15px;
+        /* flex-direction: column; */
+    }
+    .footer_txt img{
+        width:8%;
+
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .social_icon img{
+        width:5%;
+    }
+
+    .upper_row span{
+        font-size: 20px;
+        margin-top:15%;
+        margin-left:25%;
+    }
+    .lanka span{
+        font-size: 20px;
+        margin-top:25%;
+        margin-left: 24%;
+    }
+    .america span{
+        font-size:20px ;
+        margin-top:18%;
+        margin-left:19%;
+    }
+
+    .Kashmir span{
+        margin-top:35%;
+    }
+    .bd span{
+        margin-top: 20%;
+        margin-left: 18%;
+    }
+    .bandar span{
+        margin-top: 12%;
+        margin-left: 18%;
+    }
+
+
+
+
+}
